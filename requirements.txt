@@ -1,3 +1,5 @@
+sklearn
+pandas
 Flask==1.1.1
 Flask-JWT==0.3.2
 flask-wtf
