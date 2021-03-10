@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+</head>
+<body>
+
+<h1>FLASK APP RUNNING</h1>
+<h2>Please enter your flower measurements below:</h2>
+<form method="POST">
+    {# This is hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.SepalLengthCm.label }} {{ form.SepalLengthCm }}
+    <br>
+    {{ form.SepalWidthCm.label }} {{ form.SepalWidthCm }}
+    <br>
+    {{ form.PetalLengthCm.label }} {{ form.PetalLengthCm }}
+    <br>
+    {{ form.PetalWidthCm.label }} {{ form.PetalWidthCm }}
+    <br>
+    {{ form.submit() }}
+</form>
+
+</body>
+</html>
