@@ -1,10 +1,11 @@
-This is a simple iris flower classification model deployment project.
+This is a simple iris flower classification model deployment project as flask app.
 
-Flask is used as web server and REST API.
+You can deploy this model/app on Openshift just using git project url with OpenShift build menu.
 
-You can deploy this model on Openshift just using git project url with OpenShift build menu.
+You can deploy the model/app as single docker container as well as on Kubernetes. 
 
-You can deploy your model on docker container without Kubernetes.
+This project is build and pushed to Dockerhub you can directly use the image if you want  
+`  docker run --rm -d -p 8080:8080 erkansirin78/flask-iris-classification:2021-3 `
 
 Input web ui:
 
