@@ -10,9 +10,9 @@ This is a simple iris flower classification model deployment project as flask ap
 ` docker image build -t my_flask_iris:1.0 . ` 
 
 - Run container 
-` docker run --rm --name flask_iris -p 8082:8080 -d my_flask_iris:1.0 ` 
+` docker run --rm --name flask_iris -p 8080:8080 -d my_flask_iris:1.0 ` 
 
-- Open browser http://localhost:8082/
+- Open browser http://localhost:8080/
 
 Enjoy your predictions.
 
