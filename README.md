@@ -1,5 +1,9 @@
 This is a simple iris flower classification model deployment project as flask app.
 
+## Directly run on Docker without building
+
+`  docker run --rm -d -p 8080:8080 erkansirin78/flask-iris-classification:2021-3 `
+
 ## Build an image (Dockerize) and run on Docker container
 - Download project
 ` git clone https://github.com/erkansirin78/flask-iris-classification.git ` 
@@ -15,12 +19,6 @@ This is a simple iris flower classification model deployment project as flask ap
 - Open browser http://localhost:8080/
 
 Enjoy your predictions.
-
-## Directly run on Docker without building
-This project is build and pushed to Dockerhub you can directly use the image if you want
-
-`  docker run --rm -d -p 8080:8080 erkansirin78/flask-iris-classification:2021-3 `
-
 
 ## On Kubernetes
 - You can deploy the model/app on Kubernetes with deployment object.
